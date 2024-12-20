@@ -2,7 +2,7 @@ let data = [
   {
     id: 0,
     price:25200,
-    img:'/img/shopping1.gif',
+    img:'react_shopping/img/shopping1.gif',
     title:' 쫀쫀이 스판 융기모 숏 겨울 팬츠',
     category: ' 쫀쫀이',
     description:'ct1640 (디자인특허/브랜드퀄리티) 리볼드 프리미엄 에코 양털 하프 더플 코트'
