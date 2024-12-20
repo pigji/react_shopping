@@ -17,7 +17,7 @@ const Card = (id) => {
       {/* shopping 배열을 반복하여 각 상품에 대한 카드 생성 */}
       {shopping.map((product, index) => (
         <Link to={`/detail/${index}`} key={index} >
-          <img src={product.img} alt={product.title} />
+          <img src={'process.env.PUBLIC_URL'+product.img} alt={product.title} />
           <p className="mt20 price">{product.price}</p>
           <h4 className="s-title">{product.title}</h4>
           <hr />
